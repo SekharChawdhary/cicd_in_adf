@@ -1,0 +1,9 @@
+{
+	"name": "dataenginnerADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "eeb4edbf-3b89-41c4-a632-0d9a39131df9",
+		"tenantId": "828984b6-987b-4a1d-96f1-28854f0e17f5"
+	}
+}

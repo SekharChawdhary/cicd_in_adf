@@ -1,0 +1,17 @@
+{
+	"name": "ds_emp1_ls_sink",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "dedbserver.database.windows.net",
+			"database": "dedatabase2",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sekhar",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDIzNjUwRkZGLTlFQ0EtNEVCQS1CMTU0LUM3NDI3NUUyODRFMF8zZmVlOTNlMS0yYThiLTQ4MjctOWVjNC0wNTk4NjQyM2M1YWUiDQp9"
+		}
+	}
+}

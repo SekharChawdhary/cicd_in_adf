@@ -1,0 +1,45 @@
+{
+	"name": "ds_emp1_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ds_emp1_ls_sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "salary",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "gender",
+				"type": "nvarchar"
+			},
+			{
+				"name": "dno",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ciry",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "emp1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
